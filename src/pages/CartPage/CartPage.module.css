@@ -1,0 +1,161 @@
+.cart_page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 40px;
+    padding-top: 40px;
+}
+
+.cart_content_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_title_container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+
+.cart_title {
+    font-size: 64px;
+    font-weight: 700;
+    text-wrap: nowrap;
+}
+
+.cart_button_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cart_button_line {
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.cart_button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8B8B8B;
+    text-wrap: nowrap;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    background: transparent;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+}
+
+.cart_content {
+    display: flex;
+    gap: 32px;
+}
+
+.cart_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cart_order_form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: #F1F3F4;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.cart_order_details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cart_order_title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cart_order_total {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_order_total_title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8B8B8B;
+}
+
+.cart_order_total_price {
+    display: flex;
+    gap: 135px;
+}
+
+.cart_order_total_price_value {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.cart_order_form_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cart_order_form_input {
+    width: 484px;
+    height: 58px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    padding-left: 32px;
+
+    &::placeholder {
+        color: #8B8B8B;
+    }
+}
+
+.cart_order_form_button {
+    margin-top: 16px;
+    background: #339933;
+    color: white;
+    border-radius: 8px;
+    width: 484px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.modal_title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.modal_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal_container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-right: 40px;
+}
+
+.modal_text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

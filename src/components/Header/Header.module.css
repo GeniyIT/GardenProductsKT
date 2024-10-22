@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    margin: 0 40px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >svg {
+        cursor: pointer;
+    }
+}
+
+.header_list {
+    display: flex;
+    gap: 32px;
+}
+
+.header_list_item {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button_counter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #339933;
+    border-radius: 1000px;
+    width: 26px;
+    height: 26px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    right: 50px;
+    bottom: 5px;
+}

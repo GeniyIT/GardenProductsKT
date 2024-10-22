@@ -1,0 +1,12 @@
+.category_page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 116px;
+    margin: 0 40px;
+}
+
+.category_page_title {
+    font-size: 70px;
+    font-weight: 700;
+}

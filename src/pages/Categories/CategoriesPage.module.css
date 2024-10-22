@@ -1,0 +1,17 @@
+.categories_page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 40px;
+    padding-top: 116px;
+}
+
+.categories_page_title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.categories_page_card {
+    display: flex;
+    gap: 30px;
+}
